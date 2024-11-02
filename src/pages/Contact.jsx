@@ -9,10 +9,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID", // Replace with your EmailJS Service ID
-        "YOUR_TEMPLATE_ID", // Replace with your EmailJS Template ID
+        "YOUR_SERVICE_ID", 
+        "YOUR_TEMPLATE_ID", 
         form.current,
-        "YOUR_USER_ID" // Replace with your EmailJS User ID
+        "YOUR_USER_ID" 
       )
       .then(
         (result) => {

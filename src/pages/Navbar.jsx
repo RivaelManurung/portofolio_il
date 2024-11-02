@@ -4,7 +4,7 @@ function Navbar({ toggleTheme }) {
   return (
     <div className="navbar bg-base-100 shadow-lg fixed top-0 left-0 w-full z-50">
       <div className="navbar-start">
-        <a className="btn btn-ghost normal-case text-xl">Portfolio</a>
+        <a className="btn btn-ghost normal-case text-xl">Portofolio</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
